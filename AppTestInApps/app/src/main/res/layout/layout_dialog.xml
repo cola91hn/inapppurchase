@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/rbOneMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Phí dụng 1 tháng 5.000/VND" />
+
+        <CheckBox
+            android:id="@+id/rbThreeMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phí dụng 3 tháng 15.000/VND" />
+
+        <CheckBox
+            android:id="@+id/rbSixthMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phí dụng 6 tháng 30.000/VND" />
+
+        <CheckBox
+            android:id="@+id/rbTelMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phí dụng 12 tháng 60.000/VND" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đồng ý" />
+</LinearLayout>
