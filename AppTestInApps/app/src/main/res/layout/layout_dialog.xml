@@ -5,41 +5,39 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <LinearLayout
+    <RadioGroup
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/rbOneMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Phí dụng 1 tháng 5.000/VND" />
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/rbThreeMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phí dụng 3 tháng 15.000/VND" />
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/rbSixthMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phí dụng 6 tháng 30.000/VND" />
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/rbTelMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phí dụng 12 tháng 60.000/VND" />
-
-    </LinearLayout>
+    </RadioGroup>
 
     <Button
         android:id="@+id/btnAgree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đồng ý" />
+        android:text="Đồng ý"/>
 </LinearLayout>

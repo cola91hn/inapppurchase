@@ -2,21 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Setting App"
-        android:textStyle="bold"
-        android:textSize="24sp"
         android:layout_gravity="center_horizontal"
-         />
+        android:text="Setting App"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnBrowser"
@@ -24,40 +23,60 @@
         android:layout_height="wrap_content"
         android:text="Browser" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phí sử dụng 1 tháng 5.000/VNĐ" />
+
     <EditText
         android:id="@+id/edtOption1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Option 1"/>
+        android:text="android.test.purchased"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phí sử dụng 3 tháng 15.000/VNĐ" />
 
     <EditText
         android:id="@+id/edtOption2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Option 2"/>
+        android:text="android.test1.purchased"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phí sử dụng 6 tháng 30.000/VNĐ" />
 
     <EditText
         android:id="@+id/edtOption3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Option 3"/>
+        android:text="android.test2.purchased"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phí sử dụng 12 tháng 60.000/VNĐ" />
 
     <EditText
         android:id="@+id/edtOption4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Option 4"/>
-
-    <EditText
-        android:id="@+id/edtOption5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Option 5"/>
+        android:text="android.test3.purchased"/>
 
     <Button
         android:id="@+id/btnSetup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Setup"/>
+        android:text="Setup" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy" />
 
 </LinearLayout>
